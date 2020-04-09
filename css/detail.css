@@ -1,0 +1,143 @@
+/* Big Tablet to 1200px (width smaller than 1140px row */
+
+@media only screen and (max-width: 1200px) {}
+
+/* Small Tablet to Big Tablet from 768 to 1023px */
+
+@media only screen and (max-width: 1023px) {}
+
+/* Small Phones to small Tablet 481-767px(Ipad) */
+
+@media only screen and (max-width: 767px) {}
+
+/* Small Phones 0 to 480px(Iphone) */
+
+@media only screen and (max-width: 480px) {}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Microsoft JhengHei;
+  background-image: linear-gradient(to bottom, #afdbcb, #abd1cc);
+}
+
+.content {
+  overflow: scroll;
+}
+
+.c_img {
+  display: flex;
+  margin-top: 1rem;
+  flex-direction: column;
+}
+
+.c_img>img {
+  border-radius: 0.3rem 0.3rem 0 0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.c_img_size {
+  width: 91%;
+  margin: auto;
+}
+
+.c_img_content {
+  width: 91%;
+  background-image: url(../img/bg_center_test.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: auto;
+  border-top: 3px solid #ff8212;
+  /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4); */
+}
+
+.c_img_text_group {
+  width: 90%;
+  margin: 0.6rem auto;
+}
+
+.c_img_title {
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+
+.c_img_icon {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.c_img_icon>img {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+}
+
+.c_img_text_detail {
+  font-size: 0.8rem;
+  color: #575757;
+}
+
+.c_notice {
+  margin: auto;
+  width: 97%;
+  border-top: 1px solid rgba(0, 0, 0, 0.16);
+  padding: 1rem 0;
+}
+
+.c_notice>p {
+  width: 93%;
+  margin: auto;
+  font-size: 0.7rem;
+  color: #575757;
+}
+
+.c_notice_text {
+  padding-top: 0.5rem;
+}
+
+.footer {
+  width: 91%;
+  height: 3rem;
+  margin: auto;
+  background-image: url(../img/bg_down_1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  position: fixed;
+  bottom: 0.5rem;
+  left: 1rem;
+}
+
+.button_check {
+  width: 40%;
+  border-radius: 4px;
+  border: solid 3px #d4d4d4;
+  background-color: #d4d4d4;
+  padding: 0.5rem 0;
+  margin: 0 1rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.button_chanel {
+  width: 40%;
+  border-radius: 4px;
+  border: solid 3px #1caa82;
+  background-color: #1caa82;
+  padding: 0.5rem 0;
+  margin-right: 1rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
