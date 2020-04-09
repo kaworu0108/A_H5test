@@ -17,7 +17,7 @@ body {
 .content_list {
   width: 91%;
   margin: 1rem auto;
-  overflow: scroll;
+  /* overflow: scroll; */
 }
 
 .content_img {
@@ -37,6 +37,11 @@ body {
   background-image: url(../img/bg_center_test.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+}
+
+.content_d_up {
+  border-bottom: 1px solid #d4d4d4;
+  padding-bottom: 1rem;
 }
 
 .content_title {
@@ -72,6 +77,11 @@ body {
   margin: auto;
   font-size: 0.8rem;
   color: #575757;
+  margin-top: 0.5rem;
+}
+
+.content_notice>p {
+  margin-top: 0.5rem;
 }
 
 /* footer */
